@@ -16,6 +16,7 @@ nav {
   
   nav > h2 {
     color: rgb(209, 155, 209);
+    font-family: cursive;
   }
 
   nav > ul {

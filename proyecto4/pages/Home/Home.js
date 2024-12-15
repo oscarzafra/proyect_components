@@ -10,7 +10,7 @@ export const Home = () => {
     <h1>Óscar Zafra Reche</h1>
     <p>Estudiante de informática, caracterizado por ser una persona con talante asertivo, empático y solidario. Comprometido a crecer en el ámbito laboral, con iniciativa para adquirir experiencia que me permita mejorar de cara a un futuro mi carrera como profesional.
     </p>
-    <p>¡¡Haz click en GitHub y descubre mis proyectos!!</p>
+    <p>Si quieres conocer mis proyectos relacionados con la informática, haz click debajo y podrás encontrar una variedad de temáticas que te podrán gustar.</p>
     <a href="https://github.com/oscarzafra">GitHub →</a>
     </section>`;
 };
