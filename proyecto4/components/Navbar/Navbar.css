@@ -1,0 +1,48 @@
+nav {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    
+  }
+  
+  @media (max-width: 770px) {
+    nav {
+      padding: 0 2rem;
+    }
+  }
+  
+  nav > h2 {
+    color: rgb(209, 155, 209);
+  }
+
+  nav > ul {
+    display: flex;
+    gap: 3rem;
+  }
+  
+  nav button {
+    background: none;
+    border: none;
+    color: inherit;
+    transform: scale(1.5);
+  }
+  
+  nav a {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: var(--highlight);
+  }
+
+  nav > img {
+    width: 160px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid purple;
+    margin-top: 10px;
+  }
